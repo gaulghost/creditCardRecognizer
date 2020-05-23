@@ -1,0 +1,47 @@
+User is prompted to enter the card number for it verification.
+If the cardnumber is not provided program returns false as output and exits.
+
+#Luhn's Algorithm
+verification of card is done by first calculating the sum of digits of card number and then verifying it's total number of digits.
+
+#Program only accounts for verification of AMEX, VISA and MASTERCARD cards
+
+#Test Case1
+Card number: 4003-6000-0000-0014 ( 4003600000000014 )
+Result: Must be a VISA
+
+#Test Case2
+Card number: 6176-2929-29 ( 6176292929 )
+Result: Must be a INVALID
+
+#Test Case3
+Card number: 3782-822463-10005 ( 378282246310005 )
+Result: Must be a AMEX
+
+#Test Case4
+Card number: 5555-5555-5555-4444 ( 5555555555554444 )
+Result: Must be a MASTERCARD
+
+#Test Case5
+Card number: 3714-496353-98431 ( 371449635398431 )
+Result: Must be a AMEX
+
+#Test Case6
+Card number: 4111-1111-1111-1111 ( 4111111111111111 )
+Result: Must be a VISA
+
+#Test Case7
+Card number: 5105-1051-0510-5100 ( 5105105105105100 )
+Result: Must be a MASTERCARD
+
+#Test Case8
+Card number: 4012-8888-8888-1881  ( 4012888888881881  )
+Result: Must be a VISA
+
+#Test Case9
+Card number: 5673-5982-7613-8003 ( 5673598276138003 )
+Result: Must be a INVALID
+
+#Test Case10
+Card number: 3694-214384-30814 ( 369421438430814 )
+Result: Must be a INVALID
